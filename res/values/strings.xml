@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Translation Chain</string>
+	<string name="num_lang_string">Number of languages</string>
+	<string name="empty_input_text_msg">Your must enter the source text.</string>
+	<string name="no_output">No result, sorry!</string>
+	<string name="dialog_loading_translations">Translating, please wait...</string>
+	
+	<!-- Button labels -->
+	<string name="do_translation_button">Translate!</string>
+	<string name="new_text_button">Something new!</string>
+	<string name="clear_text_button">Clear text</string>
+
+	<!-- Starting texts -->
+	<string name="start_text_1">I hate Facebook. I don\'t care what stupid minutiae is going on in my friends\' and relatives\' lives.</string>
+	<string name="start_text_2">Ask not what your country can do for you but what you can do for your country.</string>
+	<string name="start_text_3">Trying is the first step towards failure.</string>
+	<string name="start_text_4">Why don\'t we do it in the road?</string>
+	<string name="start_text_5">I should go to sleep. I have class later.</string>
+	<string name="start_text_6">I can haz Cheeseburger.</string>
+	<string name="start_text_7">When I grow up, I want to be famous!</string>
+	<string name="start_text_8">Do you know when I will die? I hope not soon.</string>
+	<string name="start_text_9">To be or not to be, that is the question.</string>
+	<string name="start_text_10">What you gonna do with all that junk, all that junk inside your trunk.</string>
+	<string name="start_text_11">Lady gaga has beatifully shaped eyebrows.</string>
+	<string name="start_text_12">My father is a real estate agent.</string>
+	<string name="start_text_13">I am an original person and no one can ever be like me!</string>
+	<string name="start_text_14">I don\'t appreciate you making fun of me.</string>
+	<string name="start_text_15">You\'re doing it wrong.</string>
+	<string name="start_text_16">Never gonna give you up, never gonna let you down, never gonna run around and desert you.</string>
+	<string name="start_text_17">If your life stinks, you might need a shower.</string>
+	<string name="start_text_18">I enjoy pancakes.</string>
+	<string name="start_text_19">What is the meaning of life?</string>
+	<string name="start_text_20">The only way to keep your health is to eat what you
+		don\'t want, drink what you don\'t like, and do what you\'d rather
+		not.</string>
+	<string name="start_text_21">Everyone is entitled to their own opinion. It\'s just that yours is stupid.</string>
+	<string name="start_text_22">He who laughs last didn\'t get it.</string>
+	<string name="start_text_23">Never take life seriously. Nobody gets out alive anyway.</string>
+	<string name="start_text_24">Hard work never killed anybody, but why take a chance?</string>
+	<string name="start_text_25">The road to success is always under construction.</string>
+	<string name="start_text_26">Never go to a doctor whose office plants have died.</string>
+	<string name="start_text_27">There are no stupid questions, just stupid people.</string>
+	<string name="start_text_28">Everyone has photographic memory; some just don\'t have the film.</string>
+	<string name="start_text_29">You tried your best and you failed miserably. The lesson is \'never try\'.</string>
+	<string name="start_text_30">Energizer Bunny arrested, charged with battery.</string>
+	<string name="start_text_31">The greatest pleasure in life is doing what people say you cannot do.</string>
+	<string name="start_text_32">Car service: If it ain\'t broke, we\'ll break it.</string>
+	<string name="start_text_33">In God we trust; all others must pay cash.</string>
+	<string name="start_text_34">All generalizations are false, including this one.</string>
+	<string name="start_text_35">Ah, beer, my one weakness. My achilles heel, if you will.</string>
+	<string name="start_text_36">Anything worth doing is worth doing slowly.</string>
+	<string name="start_text_37">Be careful about reading health books. You may die of a misprint.</string>
+	<string name="start_text_38">I am free of all prejudices. I hate every one equally.</string>
+	<string name="start_text_39">I cook with wine, sometimes I even add it to the food.</string>
+	<string name="start_text_40">I drank some boiling water because I wanted to whistle.</string>
+	<string name="start_text_41">I intend to live forever. So far, so good.</string>
+	<string name="start_text_42">My theory is that all of Scottish cuisine is based on a dare.</string>
+	<string name="start_text_43">There cannot be a crisis next week. My schedule is already full.</string>
+	<string name="start_text_44">The difference between genius and stupidity is that genius has its limits.</string>
+	<string name="start_text_45">I can tell you\'re lying. Your lips are moving.</string>
+</resources>

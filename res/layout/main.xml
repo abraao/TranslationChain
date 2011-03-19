@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.guaranacode.android.translationchain.beta"
+	android:id="@+id/main_screen" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<EditText android:id="@+id/input_text" android:layout_height="wrap_content"
+		android:minLines="4" android:singleLine="false" android:layout_width="fill_parent"
+		android:text="@string/start_text_1" />
+
+	<LinearLayout android:id="@+id/num_lang_layout"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<!-- <Button android:id="@+id/button_clear_text" android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" android:text="@string/clear_text_button" 
+			/> -->
+
+		<Button android:id="@+id/button_new_text" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/new_text_button" />
+
+		<Button android:id="@+id/button_num_lang" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/do_translation_button" />
+
+	</LinearLayout>
+
+	<EditText android:id="@+id/output_text" android:layout_height="wrap_content"
+		android:minLines="4" android:singleLine="false" android:layout_width="fill_parent" />
+</LinearLayout>
