@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.guaranacode.android.translationchain.beta;
+package com.guaranacode.android.libs;
 
 public final class R {
     public static final class attr {
