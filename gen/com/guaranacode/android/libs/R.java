@@ -14,74 +14,84 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int button_new_text=0x7f050003;
-        public static final int button_num_lang=0x7f050004;
-        public static final int input_text=0x7f050001;
-        public static final int main_screen=0x7f050000;
-        public static final int num_lang_layout=0x7f050002;
-        public static final int output_text=0x7f050005;
+        public static final int button_new_text=0x7f060005;
+        public static final int button_num_lang=0x7f060006;
+        public static final int feedback_text=0x7f060000;
+        public static final int input_text=0x7f060003;
+        public static final int main_screen=0x7f060002;
+        public static final int menu_send_feedback=0x7f060008;
+        public static final int num_lang_layout=0x7f060004;
+        public static final int output_text=0x7f060007;
+        public static final int send_feedback_button=0x7f060001;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int feedback=0x7f030000;
+        public static final int main=0x7f030001;
+    }
+    public static final class menu {
+        public static final int app_menu=0x7f050000;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
-        public static final int clear_text_button=0x7f040008;
+        public static final int clear_text_button=0x7f04000b;
         public static final int dialog_loading_translations=0x7f040005;
         /**  Button labels 
          */
-        public static final int do_translation_button=0x7f040006;
+        public static final int do_translation_button=0x7f040009;
         public static final int empty_input_text_msg=0x7f040003;
+        public static final int feedback_sent=0x7f040008;
         public static final int hello=0x7f040000;
-        public static final int new_text_button=0x7f040007;
+        public static final int loading_message=0x7f040007;
+        public static final int new_text_button=0x7f04000a;
         public static final int no_output=0x7f040004;
         public static final int num_lang_string=0x7f040002;
+        public static final int send_feedback=0x7f040006;
         /**  Starting texts 
          */
-        public static final int start_text_1=0x7f040009;
-        public static final int start_text_10=0x7f040012;
-        public static final int start_text_11=0x7f040013;
-        public static final int start_text_12=0x7f040014;
-        public static final int start_text_13=0x7f040015;
-        public static final int start_text_14=0x7f040016;
-        public static final int start_text_15=0x7f040017;
-        public static final int start_text_16=0x7f040018;
-        public static final int start_text_17=0x7f040019;
-        public static final int start_text_18=0x7f04001a;
-        public static final int start_text_19=0x7f04001b;
-        public static final int start_text_2=0x7f04000a;
-        public static final int start_text_20=0x7f04001c;
-        public static final int start_text_21=0x7f04001d;
-        public static final int start_text_22=0x7f04001e;
-        public static final int start_text_23=0x7f04001f;
-        public static final int start_text_24=0x7f040020;
-        public static final int start_text_25=0x7f040021;
-        public static final int start_text_26=0x7f040022;
-        public static final int start_text_27=0x7f040023;
-        public static final int start_text_28=0x7f040024;
-        public static final int start_text_29=0x7f040025;
-        public static final int start_text_3=0x7f04000b;
-        public static final int start_text_30=0x7f040026;
-        public static final int start_text_31=0x7f040027;
-        public static final int start_text_32=0x7f040028;
-        public static final int start_text_33=0x7f040029;
-        public static final int start_text_34=0x7f04002a;
-        public static final int start_text_35=0x7f04002b;
-        public static final int start_text_36=0x7f04002c;
-        public static final int start_text_37=0x7f04002d;
-        public static final int start_text_38=0x7f04002e;
-        public static final int start_text_39=0x7f04002f;
-        public static final int start_text_4=0x7f04000c;
-        public static final int start_text_40=0x7f040030;
-        public static final int start_text_41=0x7f040031;
-        public static final int start_text_42=0x7f040032;
-        public static final int start_text_43=0x7f040033;
-        public static final int start_text_44=0x7f040034;
-        public static final int start_text_45=0x7f040035;
-        public static final int start_text_5=0x7f04000d;
-        public static final int start_text_6=0x7f04000e;
-        public static final int start_text_7=0x7f04000f;
-        public static final int start_text_8=0x7f040010;
-        public static final int start_text_9=0x7f040011;
+        public static final int start_text_1=0x7f04000c;
+        public static final int start_text_10=0x7f040015;
+        public static final int start_text_11=0x7f040016;
+        public static final int start_text_12=0x7f040017;
+        public static final int start_text_13=0x7f040018;
+        public static final int start_text_14=0x7f040019;
+        public static final int start_text_15=0x7f04001a;
+        public static final int start_text_16=0x7f04001b;
+        public static final int start_text_17=0x7f04001c;
+        public static final int start_text_18=0x7f04001d;
+        public static final int start_text_19=0x7f04001e;
+        public static final int start_text_2=0x7f04000d;
+        public static final int start_text_20=0x7f04001f;
+        public static final int start_text_21=0x7f040020;
+        public static final int start_text_22=0x7f040021;
+        public static final int start_text_23=0x7f040022;
+        public static final int start_text_24=0x7f040023;
+        public static final int start_text_25=0x7f040024;
+        public static final int start_text_26=0x7f040025;
+        public static final int start_text_27=0x7f040026;
+        public static final int start_text_28=0x7f040027;
+        public static final int start_text_29=0x7f040028;
+        public static final int start_text_3=0x7f04000e;
+        public static final int start_text_30=0x7f040029;
+        public static final int start_text_31=0x7f04002a;
+        public static final int start_text_32=0x7f04002b;
+        public static final int start_text_33=0x7f04002c;
+        public static final int start_text_34=0x7f04002d;
+        public static final int start_text_35=0x7f04002e;
+        public static final int start_text_36=0x7f04002f;
+        public static final int start_text_37=0x7f040030;
+        public static final int start_text_38=0x7f040031;
+        public static final int start_text_39=0x7f040032;
+        public static final int start_text_4=0x7f04000f;
+        public static final int start_text_40=0x7f040033;
+        public static final int start_text_41=0x7f040034;
+        public static final int start_text_42=0x7f040035;
+        public static final int start_text_43=0x7f040036;
+        public static final int start_text_44=0x7f040037;
+        public static final int start_text_45=0x7f040038;
+        public static final int start_text_5=0x7f040010;
+        public static final int start_text_6=0x7f040011;
+        public static final int start_text_7=0x7f040012;
+        public static final int start_text_8=0x7f040013;
+        public static final int start_text_9=0x7f040014;
     }
 }

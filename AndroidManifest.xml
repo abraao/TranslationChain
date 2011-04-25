@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	android:minSdkVersion="3" android:versionCode="1" android:versionName="1.0"
+	android:minSdkVersion="3" android:versionCode="2" android:versionName="1.1"
 	package="com.guaranacode.android.translationchain.beta">
 	<uses-sdk android:minSdkVersion="3" />
 	<application android:icon="@drawable/icon" android:label="@string/app_name"
@@ -11,6 +11,10 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+		
+		<activity android:name=".FeedbackActivity" android:label="@string/send_feedback" />
+		
+		<meta-data android:name="FEEDBACK_REPO_APP_UUID" android:value="" />
 	</application>
 
 	<uses-permission android:name="android.permission.INTERNET"></uses-permission>

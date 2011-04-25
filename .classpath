@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="src" path="GuaranaCodeAndroidLibs_src"/>
+	<classpathentry kind="lib" path="lib/feedback_repo_client_201104253.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

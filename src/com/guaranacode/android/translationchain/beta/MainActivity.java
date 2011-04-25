@@ -4,9 +4,13 @@ import java.util.Random;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Editable;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,6 +19,8 @@ import android.widget.Toast;
 import com.guaranacode.android.libs.google.translate.Language;
 import com.guaranacode.android.libs.google.translate.LanguageTranslator;
 import com.guaranacode.android.libs.string.StringUtil;
+import com.guaranacode.android.translationchain.beta.FeedbackActivity;
+import com.guaranacode.android.translationchain.beta.R;
 
 public class MainActivity extends Activity {
     private static final LanguageTranslator translator = new LanguageTranslator("YOUR_API_KEY_HERE");
@@ -78,6 +84,24 @@ public class MainActivity extends Activity {
                 pickRandomSourceText(mStartTexts);
             }
         });
+    }
+    
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.app_menu, menu);
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case R.id.menu_send_feedback:
+            this.startActivity(new Intent(this.getApplicationContext(), FeedbackActivity.class));
+            return true;
+        default:
+            return super.onOptionsItemSelected(item);
+        }
     }
     
     /**
